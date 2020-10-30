@@ -1,16 +1,20 @@
-### Hi there 👋
+<p align="center">
+  <img src="https://github.com/thompsonemerson/thompsonemerson/raw/master/cover-thompson.png" />
+</p>
 
-<!--
-**CodeWithSouma/CodeWithSouma** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+```js
+import StudentDeveloper from 'smit';
 
-Here are some ideas to get you started:
+class Bio extends StudentDeveloper {
+  name     = 'Soumadip Dey';
+  title    = 'Student Developer';
+  company  = 'OpenSource | Remote';
+  location = 'Burdwan, IN';
+}
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+class Skills extends StudentDeveloper {
+  languages  = ['C', 'C++', 'Java', 'Python', 'JavaScript', 'Html', 'Css'];
+  databases  = ['MySQL', 'MongoDB', 'SQLite'];
+  frameworks = ['React', 'Bootstrap', 'jquery', 'Node', 'Express', 'Android', 'JavaFx', 'JavaSwing'];
+}
+```
